@@ -1,0 +1,21 @@
+{
+  "name": "CalculadoraFramework",
+  "version": "1.0.1",
+  "summary": "CalculadoraFramework implementa calculos matemáticos",
+  "description": "CalculadoraFramework implemnta calculos matematicos com : soma, subtração, multiplicação e divisão.",
+  "homepage": "https://github.com/LelioJorge/CalculadoraFramework",
+  "license": "MIT",
+  "authors": {
+    "Lelio": "lelio_ljj@hotmail.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "git": "https://github.com/LelioJorge/CalculadoraFramework.git",
+    "tag": "1.0.1"
+  },
+  "source_files": "CalculadoraFramework/CalculadoraFramework/*.{h,swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863CE1C37FD4F142A04DFEE1 /* Pods_CalculadoraApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4337CCA4A931CAE4891741B4 /* Pods_CalculadoraApp.framework */; };
+		9415D70D0DA70467EFCA0FCA /* Pods_CalculadoraAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1ED78405C7488D8208EAC /* Pods_CalculadoraAppTests.framework */; };
+		9D7FB99B41FF9A067EBA3306 /* Pods_CalculadoraApp_CalculadoraAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C2CE2FDF5944F87146BA2 /* Pods_CalculadoraApp_CalculadoraAppUITests.framework */; };
+		DC6F53B92639FBEB00E766A5 /* ViewCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F53B82639FBEB00E766A5 /* ViewCoding.swift */; };
+		DC6F53C12639FF7500E766A5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F53C02639FF7500E766A5 /* Cell.swift */; };
 		DC922BC42639A74100C6B910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC922BC32639A74100C6B910 /* AppDelegate.swift */; };
 		DC922BC62639A74100C6B910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC922BC52639A74100C6B910 /* SceneDelegate.swift */; };
 		DC922BC82639A74100C6B910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC922BC72639A74100C6B910 /* ViewController.swift */; };
-		DC922BCB2639A74100C6B910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC922BC92639A74100C6B910 /* Main.storyboard */; };
 		DC922BCD2639A74300C6B910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC922BCC2639A74300C6B910 /* Assets.xcassets */; };
-		DC922BD02639A74300C6B910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC922BCE2639A74300C6B910 /* LaunchScreen.storyboard */; };
 		DC922BDB2639A74300C6B910 /* CalculadoraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC922BDA2639A74300C6B910 /* CalculadoraAppTests.swift */; };
 		DC922BE62639A74300C6B910 /* CalculadoraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC922BE52639A74300C6B910 /* CalculadoraAppUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,13 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4337CCA4A931CAE4891741B4 /* Pods_CalculadoraApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculadoraApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820C80482C86C1F552FC05D8 /* Pods-CalculadoraApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculadoraApp.release.xcconfig"; path = "Target Support Files/Pods-CalculadoraApp/Pods-CalculadoraApp.release.xcconfig"; sourceTree = "<group>"; };
+		A1AB7D0E7BE863B72E067F65 /* Pods-CalculadoraApp-CalculadoraAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculadoraApp-CalculadoraAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CalculadoraApp-CalculadoraAppUITests/Pods-CalculadoraApp-CalculadoraAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A35246DDAE974EBFEF9D584E /* Pods-CalculadoraApp-CalculadoraAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculadoraApp-CalculadoraAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CalculadoraApp-CalculadoraAppUITests/Pods-CalculadoraApp-CalculadoraAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B90C6D99D6446B210514BC82 /* Pods-CalculadoraAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculadoraAppTests.release.xcconfig"; path = "Target Support Files/Pods-CalculadoraAppTests/Pods-CalculadoraAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB1ED78405C7488D8208EAC /* Pods_CalculadoraAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculadoraAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6F53B82639FBEB00E766A5 /* ViewCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoding.swift; sourceTree = "<group>"; };
+		DC6F53C02639FF7500E766A5 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		DC922BC02639A74100C6B910 /* CalculadoraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculadoraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC922BC32639A74100C6B910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC922BC52639A74100C6B910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DC922BC72639A74100C6B910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC922BCA2639A74100C6B910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC922BCC2639A74300C6B910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC922BCF2639A74300C6B910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC922BD12639A74300C6B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC922BD62639A74300C6B910 /* CalculadoraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC922BDA2639A74300C6B910 /* CalculadoraAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		DC922BE12639A74300C6B910 /* CalculadoraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC922BE52639A74300C6B910 /* CalculadoraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraAppUITests.swift; sourceTree = "<group>"; };
 		DC922BE72639A74300C6B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63C2CE2FDF5944F87146BA2 /* Pods_CalculadoraApp_CalculadoraAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculadoraApp_CalculadoraAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F911302EF15F047E2E400109 /* Pods-CalculadoraApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculadoraApp.debug.xcconfig"; path = "Target Support Files/Pods-CalculadoraApp/Pods-CalculadoraApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3EB10CA3A39C57D7E6079C /* Pods-CalculadoraAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculadoraAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CalculadoraAppTests/Pods-CalculadoraAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863CE1C37FD4F142A04DFEE1 /* Pods_CalculadoraApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9415D70D0DA70467EFCA0FCA /* Pods_CalculadoraAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7FB99B41FF9A067EBA3306 /* Pods_CalculadoraApp_CalculadoraAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D373739C0AF449FF58C679 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F911302EF15F047E2E400109 /* Pods-CalculadoraApp.debug.xcconfig */,
+				820C80482C86C1F552FC05D8 /* Pods-CalculadoraApp.release.xcconfig */,
+				A35246DDAE974EBFEF9D584E /* Pods-CalculadoraApp-CalculadoraAppUITests.debug.xcconfig */,
+				A1AB7D0E7BE863B72E067F65 /* Pods-CalculadoraApp-CalculadoraAppUITests.release.xcconfig */,
+				FC3EB10CA3A39C57D7E6079C /* Pods-CalculadoraAppTests.debug.xcconfig */,
+				B90C6D99D6446B210514BC82 /* Pods-CalculadoraAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B83BA8C06C4D533331331B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4337CCA4A931CAE4891741B4 /* Pods_CalculadoraApp.framework */,
+				E63C2CE2FDF5944F87146BA2 /* Pods_CalculadoraApp_CalculadoraAppUITests.framework */,
+				CBB1ED78405C7488D8208EAC /* Pods_CalculadoraAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC922BB72639A74100C6B910 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				DC922BD92639A74300C6B910 /* CalculadoraAppTests */,
 				DC922BE42639A74300C6B910 /* CalculadoraAppUITests */,
 				DC922BC12639A74100C6B910 /* Products */,
+				67D373739C0AF449FF58C679 /* Pods */,
+				B83BA8C06C4D533331331B80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +142,10 @@
 				DC922BC32639A74100C6B910 /* AppDelegate.swift */,
 				DC922BC52639A74100C6B910 /* SceneDelegate.swift */,
 				DC922BC72639A74100C6B910 /* ViewController.swift */,
-				DC922BC92639A74100C6B910 /* Main.storyboard */,
 				DC922BCC2639A74300C6B910 /* Assets.xcassets */,
-				DC922BCE2639A74300C6B910 /* LaunchScreen.storyboard */,
 				DC922BD12639A74300C6B910 /* Info.plist */,
+				DC6F53B82639FBEB00E766A5 /* ViewCoding.swift */,
+				DC6F53C02639FF7500E766A5 /* Cell.swift */,
 			);
 			path = CalculadoraApp;
 			sourceTree = "<group>";
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC922BEA2639A74300C6B910 /* Build configuration list for PBXNativeTarget "CalculadoraApp" */;
 			buildPhases = (
+				FB57E0F31DA4F46EA455DEF7 /* [CP] Check Pods Manifest.lock */,
 				DC922BBC2639A74100C6B910 /* Sources */,
 				DC922BBD2639A74100C6B910 /* Frameworks */,
 				DC922BBE2639A74100C6B910 /* Resources */,
+				8A3DD600034E8F6853E2116E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC922BED2639A74300C6B910 /* Build configuration list for PBXNativeTarget "CalculadoraAppTests" */;
 			buildPhases = (
+				C93A2320DA89F2EE79939830 /* [CP] Check Pods Manifest.lock */,
 				DC922BD22639A74300C6B910 /* Sources */,
 				DC922BD32639A74300C6B910 /* Frameworks */,
 				DC922BD42639A74300C6B910 /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC922BF02639A74300C6B910 /* Build configuration list for PBXNativeTarget "CalculadoraAppUITests" */;
 			buildPhases = (
+				9E1B0BBFD235326350579A6E /* [CP] Check Pods Manifest.lock */,
 				DC922BDD2639A74300C6B910 /* Sources */,
 				DC922BDE2639A74300C6B910 /* Frameworks */,
 				DC922BDF2639A74300C6B910 /* Resources */,
+				8DD346043F1116534E2E0EC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC922BD02639A74300C6B910 /* LaunchScreen.storyboard in Resources */,
 				DC922BCD2639A74300C6B910 /* Assets.xcassets in Resources */,
-				DC922BCB2639A74100C6B910 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +296,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A3DD600034E8F6853E2116E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculadoraApp/Pods-CalculadoraApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculadoraApp/Pods-CalculadoraApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculadoraApp/Pods-CalculadoraApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD346043F1116534E2E0EC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculadoraApp-CalculadoraAppUITests/Pods-CalculadoraApp-CalculadoraAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculadoraApp-CalculadoraAppUITests/Pods-CalculadoraApp-CalculadoraAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculadoraApp-CalculadoraAppUITests/Pods-CalculadoraApp-CalculadoraAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1B0BBFD235326350579A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculadoraApp-CalculadoraAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93A2320DA89F2EE79939830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculadoraAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB57E0F31DA4F46EA455DEF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculadoraApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC922BBC2639A74100C6B910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC922BC82639A74100C6B910 /* ViewController.swift in Sources */,
+				DC6F53B92639FBEB00E766A5 /* ViewCoding.swift in Sources */,
+				DC6F53C12639FF7500E766A5 /* Cell.swift in Sources */,
 				DC922BC42639A74100C6B910 /* AppDelegate.swift in Sources */,
 				DC922BC62639A74100C6B910 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,25 +442,6 @@
 			targetProxy = DC922BE22639A74300C6B910 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DC922BC92639A74100C6B910 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC922BCA2639A74100C6B910 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DC922BCE2639A74300C6B910 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC922BCF2639A74300C6B910 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DC922BE82639A74300C6B910 /* Debug */ = {
@@ -433,6 +562,7 @@
 		};
 		DC922BEB2639A74300C6B910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F911302EF15F047E2E400109 /* Pods-CalculadoraApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +576,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CalculadoraApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC922BEC2639A74300C6B910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820C80482C86C1F552FC05D8 /* Pods-CalculadoraApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +596,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CalculadoraApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DC922BEE2639A74300C6B910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3EB10CA3A39C57D7E6079C /* Pods-CalculadoraAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +625,7 @@
 		};
 		DC922BEF2639A74300C6B910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90C6D99D6446B210514BC82 /* Pods-CalculadoraAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +648,7 @@
 		};
 		DC922BF12639A74300C6B910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35246DDAE974EBFEF9D584E /* Pods-CalculadoraApp-CalculadoraAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +669,7 @@
 		};
 		DC922BF22639A74300C6B910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1AB7D0E7BE863B72E067F65 /* Pods-CalculadoraApp-CalculadoraAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

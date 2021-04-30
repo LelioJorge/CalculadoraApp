@@ -1,0 +1,16 @@
+PODS:
+  - MyCalculatorFramework (1.0.0)
+
+DEPENDENCIES:
+  - MyCalculatorFramework
+
+SPEC REPOS:
+  https://github.com/LelioJorge/PodSpecs.git:
+    - MyCalculatorFramework
+
+SPEC CHECKSUMS:
+  MyCalculatorFramework: 64be7675cf5583e0f3ba7ae22afa75c1b9dab1a2
+
+PODFILE CHECKSUM: e31686f37d2d5ca6547f1490331c74038c4f1930
+
+COCOAPODS: 1.10.1
